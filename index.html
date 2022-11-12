@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+	<meta charset="UTF-8">
+	<title>title</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<form action="#0">
+
+<div>
+    <input required type="text" id="first_name" name="first_name" placeholder=" ">
+    <label for="first_name"> Username </label>
+</div>
+
+
+<div>
+    <input required type="email" id="email" name="email" placeholder=" ">
+    <label for="email"> Email Address </label>
+    <div class="requirements">
+        Must be a valid email address.
+    </div>
+</div>
+
+<div>
+    <input required type="password" id="password" name="password" placeholder=" "
+    pattern="(?=.*/d)(?=.*[a-z])(?=.*[A-Z]).{6,}">
+    <label for="password"> Password </label>
+    <div class="requirements">
+        Password must has at least 8 characters that include at least 1 lowercase character 1 upparcase charactes, 1 number, ans 1 special character in (!@#$%^&*)
+    </div>
+
+<input type="submit" value="Sign up"/>
+
+
+
+</div>
+    </form>
+</body>
+</html>
